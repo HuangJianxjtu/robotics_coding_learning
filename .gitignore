@@ -1,0 +1,12 @@
+# ignore build directories
+build
+
+# ignore vscode configuration files
+.vscode
+*.json
+
+# ignore mp4 files, which are very large
+*.mp4
+
+# ignore rosbag files, which are very large
+*.bag
