@@ -10,3 +10,7 @@ build
 
 # ignore rosbag files, which are very large
 *.bag
+
+# ignore pycharm and clion configuration files
+*.idea
+*cmake-build-debug
