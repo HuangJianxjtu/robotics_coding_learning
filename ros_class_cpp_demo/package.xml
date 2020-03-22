@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+		<name>ros_class_cpp_demo</name>
+		<version>0.0.1</version>
+		<description>ball detector</description>
+
+		<maintainer email="1479748954@qq.com">jianHuang</maintainer>
+
+
+		<license>TODO</license>
+
+
+		<buildtool_depend>catkin</buildtool_depend>
+															    
+		<build_depend>roscpp</build_depend>
+		<build_depend>rospy</build_depend>
+		<build_depend>std_msgs</build_depend>
+		<build_depend>sensor_msgs</build_depend>
+		<build_depend>cv_bridge</build_depend>
+    	<build_depend>image_transport</build_depend>
+
+
+																	  
+		<run_depend>roscpp</run_depend>
+		<run_depend>rospy</run_depend>
+		<run_depend>std_msgs</run_depend>
+		<run_depend>sensor_msgs</run_depend>
+		<run_depend>cv_bridge</run_depend>
+		<run_depend>image_transport</run_depend>
+		
+		<run_depend>message_runtime</run_depend>
+
+		<export>
+
+		</export>
+</package>
+
