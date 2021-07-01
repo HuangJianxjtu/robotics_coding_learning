@@ -18,7 +18,7 @@ For python development
 
 For c++ development
 
-* Creat command-line launch and creat desktop entry
+* Creat command-line launch and creat desktop entry,选择'creat for all users'
 * `sudo gedit /usr/share/applications/jetbrains-clion.desktop`
 
     modify the Exec line: add `zsh -i -c` after `=`
