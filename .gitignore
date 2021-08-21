@@ -1,5 +1,5 @@
 # ignore build directories
-build
+*build
 
 # ignore vscode configuration files
 .vscode
