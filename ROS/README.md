@@ -1,4 +1,4 @@
-## Notes for ros
+## Notes for ROS
 
 [A Good Tutorial:ROS-Academy-for-Beginners](https://github.com/sychaichangkun/ROS-Academy-for-Beginners)
 
