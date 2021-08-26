@@ -12,3 +12,6 @@ include_directories(
 
 add_executable(main mask_demo.cpp)
 target_link_libraries(main ${OpenCV_LIBS})
+
+add_executable(create_mask creat_mask.cpp)
+target_link_libraries(create_mask ${OpenCV_LIBS})

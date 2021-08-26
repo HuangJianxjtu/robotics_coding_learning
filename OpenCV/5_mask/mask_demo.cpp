@@ -3,11 +3,6 @@
 using namespace cv;
 using namespace std;
 
-struct userdata{
-    Mat im;
-    vector<Point2f> points;
-};
-
 int main( int argc, char** argv)
 {
     Mat im_src = imread("../test.png");
