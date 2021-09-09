@@ -32,3 +32,6 @@ target_link_libraries(g2oCurveFitting ${OpenCV_LIBS} ${G2O_CORE_LIBRARY} ${G2O_S
 
 add_executable(hello_cere hello_cere.cpp)
 target_link_libraries(hello_cere ${CERES_LIBRARIES})
+
+add_executable(hello_cere_plus hello_cere_plus.cpp)
+target_link_libraries(hello_cere_plus ${CERES_LIBRARIES})
