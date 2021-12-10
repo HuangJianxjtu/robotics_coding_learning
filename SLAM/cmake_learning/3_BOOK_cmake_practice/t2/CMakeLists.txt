@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(hello_proj)
+message(STATUS "maindir: This is PROJECT_BINARY_DIR: " ${PROJECT_BINARY_DIR})
+message(STATUS "maindir: This is PROJECT_SOURCE_DIR: " ${PROJECT_SOURCE_DIR})
+message(STATUS "maindir: This is CMAKE_CURRENT_SOURCE_DIR: " ${CMAKE_CURRENT_SOURCE_DIR})
+add_subdirectory(src hj_bin)
