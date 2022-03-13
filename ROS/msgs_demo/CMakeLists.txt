@@ -4,6 +4,7 @@ project(msgs_demo)
 # new message is dependent on std_msgs and geometry_msgs
 find_package(catkin REQUIRED COMPONENTS
     roscpp
+    rospy
     std_msgs
     geometry_msgs
     message_generation  # required by generating the new message
@@ -18,6 +19,7 @@ generate_messages(DEPENDENCIES  #用于自定义消息
 
 catkin_package(CATKIN_DEPENDS
     roscpp
+    rospy
     std_msgs
     geometry_msgs
     message_runtime  # required by generating the new message
